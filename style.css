@@ -10,8 +10,14 @@ h1 {
     border-bottom: 4mm ridge rgba(170, 20, 235, 0.6);
     margin-bottom: 5px;
 }
-p {
+p1 {
     width: 600px;
+}
+p2 {
+    float: right;
+    font-size: 2em;
+    max-width: 400px;
+    text-align: right;
 }
 h2 {
     color: white;
@@ -25,7 +31,7 @@ a:link {
     color: rgb(255, 0, 157);
 }
 a:visited {
-    color: rgb(188, 226, 21);
+    color: rgb(255, 27, 114);
 }
 ul {
     outline: solid;
