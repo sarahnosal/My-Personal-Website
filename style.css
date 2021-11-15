@@ -1,3 +1,20 @@
 body {
-    background: rgba(110, 244, 253, 0.849);
+    background: rgba(75, 185, 236, 0.849);
+    font-family: Cochin;
+}
+h1 {
+    color: hotpink;
+    text-align: left;
+    font-family: Georgia;
+    font-size: 4em;
+    border-bottom: 4mm ridge rgba(170, 20, 235, 0.6);
+    margin-bottom: 5px;
+}
+h2 {
+    color: white;
+}
+.job-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: grey;
 }
