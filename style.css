@@ -47,3 +47,31 @@ img {
     padding-top: 40px;
     padding-right:500px;
 } 
+.tab {
+    overflow: hidden;
+    border: 1px solid rgb(255, 207, 230);
+    background-color: rgb(252, 106, 174);
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px  16px;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: Cochin;
+}
+.tab button:hover {
+    background-color: rgb(255, 207, 230);
+}
+.tab button.active {
+    background-color: rgb(255, 207, 230);
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    background-color: rgb(255, 207, 230);
+    border: 1px solid rgb(252, 106, 174);
+}
